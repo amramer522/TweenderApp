@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/twitter_connection_Fragment_Tv_AppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d40"
+        android:text="@string/tweender"
+        android:textColor="@color/baby_blue"
+        android:textSize="@dimen/s70" />
+
+    <TextView
+        android:id="@+id/twitter_connection_Fragment_Tv_Hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/twitter_as_you_like"
+        android:textSize="@dimen/s20" />
+
+    <ImageView
+        android:id="@+id/twitter_connection_Fragment_Iv_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d24"
+        android:src="@drawable/ic_logo" />
+
+    <LinearLayout
+        android:id="@+id/twitter_connection_Fragment_Il_Sign_In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d50"
+        android:layout_marginStart="@dimen/d16"
+        android:layout_marginEnd="@dimen/d16"
+        android:background="@color/baby_blue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/d8"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/d75"
+            android:layout_height="@dimen/d75"
+            android:src="@drawable/ic_twittr" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/s20"
+            android:paddingStart="@dimen/d16"
+            android:paddingEnd="@dimen/d16"
+            android:text="@string/sign_in_with_twitter" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

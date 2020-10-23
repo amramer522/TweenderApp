@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/d65"
+    android:paddingTop="@dimen/d16">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Profile_Fragment_Civ_User_Img"
+        android:layout_width="@dimen/d150"
+        android:layout_height="@dimen/d150"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_boy" />
+
+    <TextView
+        android:id="@+id/Profile_Fragment_Civ_User_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Profile_Fragment_Civ_User_Img"
+        android:layout_centerHorizontal="true"
+        android:text="@string/amr_bakr"
+        android:textColor="@color/baby_blue"
+        android:textSize="@dimen/d30"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Profile_Fragment_Civ_User_Name"
+        android:layout_margin="@dimen/d30"
+        android:padding="@dimen/d16"
+        >
+
+        <TextView
+            android:id="@+id/Profile_Fragment_Tv_Email_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Address : "
+            android:layout_marginTop="@dimen/d3"
+            android:layout_marginStart="@dimen/d3"
+            android:layout_marginEnd="@dimen/d3"
+            />
+
+        <TextView
+            android:id="@+id/Profile_Fragment_Tv_Phone_Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d3"
+            android:layout_marginStart="@dimen/d3"
+            android:layout_marginEnd="@dimen/d3"
+            android:layout_below="@id/Profile_Fragment_Tv_Email_Address"
+            android:text="Phone Number : " />
+
+        <TextView
+            android:id="@+id/Profile_Fragment_Tv_Gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d3"
+            android:layout_marginStart="@dimen/d3"
+            android:layout_marginEnd="@dimen/d3"
+            android:layout_below="@id/Profile_Fragment_Tv_Phone_Number"
+            android:text="Gender : " />
+
+        <TextView
+            android:id="@+id/Profile_Fragment_Tv_About"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d3"
+            android:layout_marginStart="@dimen/d3"
+            android:layout_marginEnd="@dimen/d3"
+            android:layout_below="@id/Profile_Fragment_Tv_Gender"
+            android:text="About : " />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

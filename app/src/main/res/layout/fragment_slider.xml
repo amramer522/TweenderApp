@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Slider_Fragment_Iv_Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo" />
+
+    <TextView
+        android:id="@+id/Slider_Fragment_Tv_AppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Slider_Fragment_Iv_Logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-50dp"
+        android:text="@string/tweender"
+        android:textColor="@color/baby_blue"
+        android:textSize="@dimen/s48" />
+
+    <TextView
+        android:id="@+id/Slider_Fragment_Tv_Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Slider_Fragment_Tv_AppName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/d16"
+        android:layout_marginTop="@dimen/d16"
+        android:layout_marginEnd="@dimen/d16"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="@dimen/s26" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/Slider_Fragment_Vp_Pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Slider_Fragment_Btn_Skip"
+        android:layout_below="@id/Slider_Fragment_Tv_Welcome"
+        android:background="@color/baby_blue"
+         />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/Slider_Fragment_Tl_Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Slider_Fragment_Vp_Pager"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/d20"
+        android:layout_marginTop="@dimen/d16"
+        android:layout_marginEnd="@dimen/d16"
+        android:layout_toEndOf="@id/Slider_Fragment_Btn_Skip"
+        app:tabBackground="@drawable/indicator_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="@dimen/d0"/>
+
+    <Button
+        android:id="@+id/Slider_Fragment_Btn_Skip"
+        android:layout_width="wrap_content"
+        style="@style/buttonTheme"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/d16"
+        android:layout_marginTop="@dimen/d16"
+        android:layout_marginEnd="@dimen/d16"
+        android:layout_marginBottom="@dimen/d16"
+        android:text="@string/skip"
+        />
+
+
+</RelativeLayout>

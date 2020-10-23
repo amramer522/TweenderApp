@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/Choose_Language_Fragment_Tv_AppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/d30"
+        android:text="@string/tweender"
+        android:textColor="@color/baby_blue"
+        android:textSize="@dimen/s70" />
+
+    <TextView
+        android:id="@+id/Choose_Language_Fragment_Tv_Hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Choose_Language_Fragment_Tv_AppName"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/s20"
+        android:text="@string/twitter_as_you_like"
+        />
+
+    <ImageView
+        android:id="@+id/Choose_Language_Fragment_Iv_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Choose_Language_Fragment_Tv_Hint"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_logo" />
+
+    <TextView
+        android:id="@+id/Choose_Language_Fragment_Tv_Choose_Language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_below="@id/Choose_Language_Fragment_Iv_Logo"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/s20"
+        android:text="@string/choose_your_language"
+        />
+
+    <TextView
+        android:id="@+id/Choose_Language_Fragment_Tv_Arabic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Choose_Language_Fragment_Tv_Choose_Language"
+        android:layout_marginTop="@dimen/d16"
+        android:textSize="@dimen/s28"
+        android:layout_alignEnd="@id/Choose_Language_Fragment_Tv_Choose_Language"
+        android:text="@string/arabic_logo"
+        android:background="@drawable/shape_circle"
+        android:padding="@dimen/d16"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/Choose_Language_Fragment_Tv_English"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Choose_Language_Fragment_Tv_Choose_Language"
+        android:layout_alignStart="@id/Choose_Language_Fragment_Tv_Choose_Language"
+        android:layout_marginTop="@dimen/d16"
+        android:background="@drawable/shape_circle"
+        android:gravity="center"
+        android:padding="@dimen/d16"
+        android:text="@string/english_logo"
+        android:textColor="@color/white"
+        android:textSize="@dimen/s28" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Choose_Language_Fragment_Tv_English"
+        android:layout_alignStart="@id/Choose_Language_Fragment_Tv_English"
+        android:layout_marginStart="@dimen/d4"
+        android:layout_marginTop="@dimen/d8"
+        android:layout_marginEnd="96dp"
+        android:text="@string/english"
+        android:textSize="@dimen/s18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arabic"
+        android:layout_marginTop="@dimen/d8"
+        android:layout_alignEnd="@id/Choose_Language_Fragment_Tv_Arabic"
+        android:textSize="@dimen/s18"
+        android:layout_marginEnd="@dimen/d16"
+        android:layout_below="@id/Choose_Language_Fragment_Tv_English"
+        />
+
+</RelativeLayout>

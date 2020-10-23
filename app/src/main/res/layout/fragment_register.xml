@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/d16"
+
+    >
+
+
+    <TextView
+        android:id="@+id/Register_Fragment_Tv_AppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="@string/tweender"
+        android:textColor="@color/baby_blue"
+        android:textSize="@dimen/s48" />
+
+    <TextView
+        android:id="@+id/Register_Fragment_Tv_Registeration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/registeration"
+        android:textColor="@color/black"
+        android:textSize="@dimen/s20" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Register_Fragment_Til_Name"
+        style="@style/textinputlayoutTheme"
+        android:layout_marginTop="@dimen/d16">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textedittextTheme"
+            android:drawableStart="@drawable/ic_account_circle"
+            android:hint="@string/enter_your_name"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Register_Fragment_Til_Email_Address"
+        style="@style/textinputlayoutTheme">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textedittextTheme"
+            android:drawableStart="@drawable/ic_email"
+            android:hint="@string/enter_your_email_address"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Register_Fragment_Til_Phone_Number"
+        style="@style/textinputlayoutTheme">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textedittextTheme"
+            android:drawableStart="@drawable/ic_phone"
+            android:hint="@string/enter_your_phone_number"
+            android:inputType="phone" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Register_Fragment_Til_Password"
+        style="@style/textinputlayoutTheme"
+        app:passwordToggleEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textedittextTheme"
+            android:drawableStart="@drawable/ic_lock"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Register_Fragment_Til_Confirm_Password"
+        style="@style/textinputlayoutTheme"
+        app:passwordToggleEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textedittextTheme"
+            android:drawableStart="@drawable/ic_lock"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/Register_Fragment_Rg_Gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/d80"
+        android:layout_marginTop="@dimen/d8"
+        android:layout_marginEnd="@dimen/d80"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/maleRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/femaleRadioButton2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/femail" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/Register_Fragment_Btn_Register"
+        style="@style/buttonTheme"
+        android:layout_gravity="center"
+        android:text="@string/register" />
+
+
+    <TextView
+        android:id="@+id/Register_Fragment_Tv_Back_To_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/d24"
+        android:layout_marginTop="@dimen/d16"
+        android:layout_marginEnd="@dimen/d24"
+        android:layout_marginBottom="@dimen/d28"
+        android:drawableStart="@drawable/ic_back"
+        android:drawablePadding="@dimen/d8"
+        android:text="@string/back_to_login"
+        android:textColor="@color/black" />
+
+</LinearLayout>
+
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/d8"
+    android:layout_marginEnd="@dimen/d8">
+
+    <TableRow
+        android:id="@+id/Filtered_Words_List_Tr_Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/Item_Filtered_Words_List_Tv_Word"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/word"
+            android:textColor="@color/black"
+            android:textSize="@dimen/s28" />
+
+
+        <TextView
+            android:id="@+id/Item_Filtered_Words_List_Tv_Category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/category"
+            android:textColor="@color/black"
+            android:textSize="@dimen/s28" />
+
+
+        <ImageView
+            android:id="@+id/Item_Filtered_Words_List_Ib_Remove"
+            android:layout_width="@dimen/d50"
+            android:layout_height="@dimen/d40" />
+
+    </TableRow>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Filtered_Words_List_Rv_Recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Filtered_Words_List_Tr_Header"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/Filtered_Words_List_Fab_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/d8"
+        android:layout_marginEnd="@dimen/d8"
+        android:layout_marginBottom="@dimen/d8"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+
+
+</RelativeLayout>

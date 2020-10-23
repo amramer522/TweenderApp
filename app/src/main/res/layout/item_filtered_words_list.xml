@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/d8"
+    android:background="@drawable/input_border">
+
+    <TextView
+        android:id="@+id/Item_Filtered_Words_List_Tv_Word"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/category1"
+        android:textSize="@dimen/s18" />
+
+    <TextView
+        android:layout_width="@dimen/d2"
+        android:layout_height="match_parent"
+        android:background="@color/baby_blue" />
+
+    <TextView
+        android:id="@+id/Item_Filtered_Words_List_Tv_Category"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/category1"
+        android:textSize="@dimen/s18" />
+
+    <TextView
+        android:layout_width="@dimen/d2"
+        android:layout_height="match_parent"
+        android:background="@color/baby_blue" />
+
+    <ImageView
+        android:id="@+id/Item_Filtered_Words_List_Ib_Remove"
+        android:layout_width="@dimen/d50"
+        android:layout_height="@dimen/d40"
+        android:src="@drawable/ic_clear" />
+
+</TableRow>

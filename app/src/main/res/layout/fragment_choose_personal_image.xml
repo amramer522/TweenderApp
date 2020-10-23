@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/choose_personal_image_fragment_Civ_Personal_Img"
+        android:layout_width="@dimen/d150"
+        android:layout_height="@dimen/d200"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/choose_personal_image_fragment_Tv_Hint"
+        android:layout_marginTop="@dimen/d40"
+        android:src="@drawable/ic_boy" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/choose_personal_image_fragment_Civ_Select_Img"
+        android:layout_width="@dimen/d60"
+        android:layout_height="@dimen/d60"
+        android:layout_alignEnd="@id/choose_personal_image_fragment_Civ_Personal_Img"
+        android:layout_alignBottom="@id/choose_personal_image_fragment_Civ_Personal_Img"
+        android:background="@drawable/ic_add_a_photo" />
+
+    <TextView
+        android:id="@+id/choose_personal_image_fragment_Tv_Hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/d16"
+        android:layout_above="@id/choose_personal_image_fragment_Tv_About"
+        android:text="@string/tap_on_image_to_select_your_picture"
+        android:textColor="@color/black"
+        android:textSize="@dimen/s18" />
+
+    <TextView
+        android:id="@+id/choose_personal_image_fragment_Tv_About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/d24"
+        android:drawableStart="@drawable/ic_info"
+        android:drawablePadding="@dimen/d16"
+        android:text="@string/about_you"
+        android:textColor="@color/black"
+        android:textSize="@dimen/s18" />
+
+
+    <EditText
+        android:id="@+id/choose_personal_image_fragment_Et_About_Text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d100"
+        android:layout_below="@id/choose_personal_image_fragment_Tv_About"
+        android:layout_marginStart="@dimen/d24"
+        android:layout_marginEnd="@dimen/d24"
+        android:hint="@string/i_love"
+        android:inputType="textMultiLine"
+        android:paddingStart="@dimen/d16"
+        android:paddingEnd="@dimen/d16" />
+
+    <Button
+        android:id="@+id/choose_personal_image_fragment_Btn_Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/d16"
+        android:background="@color/dark_blue"
+        android:text="@string/save"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/choose_personal_image_fragment_Btn_Skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/d16"
+        android:layout_toStartOf="@id/choose_personal_image_fragment_Btn_Save"
+        android:background="@color/white"
+        android:text="@string/skip"
+        android:textColor="@color/dark_blue" />
+
+
+
+
+</RelativeLayout>

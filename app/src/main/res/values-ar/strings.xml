@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تويندر</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="welcome">مرحبابكم</string>
+    <string name="skip">تخطى</string>
+    <string name="filtered_words">الكلمات المزعجة</string>
+    <string name="filtered_categories">المجالات المزعجة</string>
+    <string name="exit">خروج</string>
+    <string name="forget_your_password">هل نسيت كلمة المرور ؟</string>
+    <string name="register">تسجيل</string>
+    <string name="email_address">البريد الالكترونى</string>
+    <string name="password">كلمة المرور</string>
+    <string name="remember_me">تذكرنى</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="enter_your_name">ادخل إسمك</string>
+    <string name="enter_your_email_address">ادخل البريد الالكترونى</string>
+    <string name="enter_your_phone_number">ادخل رقم الهاتف</string>
+    <string name="enter_your_password">ادخل كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="male">ذكر</string>
+    <string name="femail">انثى</string>
+    <string name="back_to_login">الرجوع لتسجيل الدخول</string>
+    <string name="send_code">ارسال الكود</string>
+    <string name="enter_verfication_code">ادخل كود التأكيد</string>
+    <string name="change">تغيير</string>
+    <string name="add">اضافة</string>
+    <string name="enter_annoying_word">ادخل الكلمه التى تزعجك</string>
+    <string name="back_to_categories_list">الرجوع الى قائمة المجالات</string>
+    <string name="back_to_words_list">الرجوع الى قائمة الكلمات</string>
+    <string name="choose_your_language">اختار لغة التطبيق</string>
+    <string name="sign_in_with_twitter">تسجيل الدخول عن طريق تويتر</string>
+    <string name="text_size_validation">الباسورد يجب الا يقل عن 8 احرف</string>
+    <string name="verfiy">أكد</string>
+    <string name="show_on_twitter" translatable="false">عرض ف تويتر</string>
+    <string name="word" translatable="false">الكلمة</string>
+    <string name="category" translatable="false">المجال</string>
+    <string name="add_word_hint" translatable="false">إحذف كل الكلمات المزعجه من هنا</string>
+    <string name="add_category_hint" translatable="false">إحذف كل المجالات المزعجه من هنا</string>
+    <string name="setting" translatable="false">الإعدادت</string>
+    <string name="registeration">تسجيل حساب جديد</string>
+    <string name="home" translatable="false">الصفحة الرئيسية</string>
+    <string name="item_slider1" translatable="false">من الان استخدم تويتر ودع تويندر يتخلص لك من اى شئ مزعج لك.</string>
+    <string name="item2_slider" translatable="false">تويندر بيديك القدره على التحكم ف محتوى التويتات اللى بتظهرلك.</string>
+    <string name="item3_slider">مش بس كده لا كمان احنا بنوفر بيئة أمنه لأولادك من حيث المحتوى اللى بيظهر.</string>
+    <string name="time">الوقت</string>
+</resources>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Tweender</string>
+    <string name="title_activity_home_cycle" translatable="false">HomeCycleActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="tweender" translatable="false">Tweender</string>
+    <string name="welcome">Welcome</string>
+    <string name="skip">Skip</string>
+    <string name="item_slider1">Start Using Twitter and let Tweender App clean annoying tweets fot you.</string>
+    <string name="item2_slider">We help you to control what you see.</string>
+    <string name="item3_slider">We provide a best environment for your children while browsing the tweets.</string>
+    <string name="home">Home</string>
+
+    <string name="filtered_words">Filtered Words</string>
+    <string name="filtered_categories">Filtered Categories</string>
+    <string name="exit">Exit</string>
+    <string name="setting">Setting</string>
+    <string name="forget_your_password">Forget Your Password ?</string>
+    <string name="register">Register</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="registeration">Registeration</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="enter_your_phone_number">Enter Your Phone Number</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="male">Male</string>
+    <string name="femail">Femail</string>
+    <string name="back_to_login">Back To Login</string>
+    <string name="send_code">Send Code</string>
+    <string name="enter_verfication_code">Enter Verfication Code</string>
+    <string name="change">Change</string>
+    <string name="add_category_hint">Remove All Annoying Categories From Here</string>
+    <string name="add">Add</string>
+    <string name="add_word_hint">Remove All Annoying Word From Here</string>
+    <string name="enter_annoying_word">Enter Annoying Word</string>
+    <string name="category1" translatable="false">category1</string>
+    <string name="category">Category</string>
+    <string name="word">Word</string>
+    <string name="back_to_categories_list">Back To Categories List</string>
+    <string name="back_to_words_list">Back To Words List</string>
+    <string name="item_home_test_text" translatable="false">China Global Television Network, or CGTN, is a multi-language, multiplatform media grouping.</string>
+    <string name="amr_bakr" translatable="false">Amr Bakr</string>
+    <string name="time">Time</string>
+    <string name="show_on_twitter">Show On Twitter</string>
+    <string name="email" translatable="false">amoor1411997</string>
+    <string name="twitter_as_you_like" translatable="false">Twitter As You Like</string>
+    <string name="choose_your_language">Choose Your Language</string>
+    <string name="arabic_logo" translatable="false">ع</string>
+    <string name="english_logo" translatable="false">En</string>
+    <string name="english" translatable="false">English</string>
+    <string name="arabic" translatable="false">عربى</string>
+    <string name="sign_in_with_twitter">Sign in with Twitter</string>
+    <string name="text_size_validation">Password must be at least 8 Characters</string>
+    <string name="amramer522_gmail_com" translatable="false">amramer522@gmail.com</string>
+    <string name="verfiy">Verfiy</string>
+    <string name="dialog_msg_register" translatable="false">Creating new Account Please Wait ...</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="about_you" translatable="false">About You</string>
+    <string name="tap_on_image_to_select_your_picture" translatable="false">Tap on Image To Select Your Picture</string>
+    <string name="i_love" translatable="false">I love ...</string>
+
+    <string-array name="Categories_arr">
+        <item>football</item>
+        <item>policy</item>
+        <item>Art</item>
+        <item>love</item>
+        <item>chemisrty</item>
+        <item>AI</item>
+    </string-array>
+</resources>

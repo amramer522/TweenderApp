@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    >
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/Home_Fragment_Srl_Swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/Home_Fragment_Rv_Recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/Home_Fragment_Fab_New_Tweet"-->
+        <!--android:layout_width="@dimen/d90"-->
+        <!--android:layout_height="90dp"-->
+        <!--android:src="@drawable/ic_add"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="@dimen/d16"-->
+        <!--android:layout_marginEnd="@dimen/d16"-->
+        <!--/>-->
+
+
+</RelativeLayout>
